@@ -27,3 +27,15 @@ server = HTTPServer(('0.0.0.0', 8000), SimpleHTTPRequestHandler)
 
 server.serve_forever()
 
+
+# Traceback (most recent call last):
+#   File "C:\Users\asus\PycharmProjects\layout-4new\main.py", line 28, in <module>
+#     server.serve_forever()
+#   File "C:\Users\asus\anaconda3\lib\socketserver.py", line 232, in serve_forever
+#     ready = selector.select(poll_interval)
+#   File "C:\Users\asus\anaconda3\lib\selectors.py", line 323, in select
+#     r, w, _ = self._select(self._readers, self._writers, [], timeout)
+#   File "C:\Users\asus\anaconda3\lib\selectors.py", line 314, in _select
+#     r, w, x = select.select(r, w, w, timeout)
+# KeyboardInterrupt
+
